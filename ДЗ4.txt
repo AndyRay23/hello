@@ -1,0 +1,7 @@
+1.SELECT * FROM Products;
+2.SELECT * FROM Products WHERE prod_price > '4';
+3.SELECT * FROM Customers WHERE cust_name != 'Fun4All';
+4.SELECT * FROM OrderItems ORDER BY item_price DESC;
+5.REPLACE INTO Vendors (vend_id, vend_name, vend_address,
+vend_city, vend_state, vend_zip, vend_country) VALUES
+('AA666', 'HarryP', 'Hogwarts', 'London', 'Bloomsbury', 'NW1AX', 'UK');
